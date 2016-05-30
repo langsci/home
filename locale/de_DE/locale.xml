@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/home/locale/de_DE/locale.xml
+  *
+  * Copyright (c) 2016 Language Science Press
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this plugin.
+  *
+  -->
+
+<locale name="de_DE" full_name="German">
+
+	<message key="plugins.generic.home.displayName">Startseiten Plugin</message>
+	<message key="plugins.generic.home.description">Stellt Startseitentemplate zur Verfügung</message>
+	<message key="plugins.generic.home.title">Language Science Press</message> <!-- tab name -->
+	<message key="plugins.generic.home.intro">High quality, peer-reviewed open-access books in linguistics.</message> 
+
+</locale>
