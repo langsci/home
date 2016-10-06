@@ -31,9 +31,11 @@
 	{/if}
 	
 	{* Slider added by Language Science Press *}
-        <div id="owl-slider" class="owl-carousel">
-                {$content}
-        </div>
+	{if $sliderContent}
+		<div id="owl-slider" class="owl-carousel">
+			{$sliderContent}
+		</div>
+	{/if}
 
 	{* Spotlights *}
 	{if !empty($spotlights)}
