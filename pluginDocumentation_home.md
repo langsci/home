@@ -7,12 +7,12 @@ Key data
 - tested on OMP version: 1.2.0
 - github link: https://github.com/langsci/home.git
 - community plugin: yes
-- date: 2016/05/11
+- date: 2016/10/06
 
 Description
 ============
 
-This plugin replaces the template for the home page in OMP (frontend/pages/index.tpl). In index.tpl, it adds a slider that is populated with data from table 'langsci_slider_content'. The table can be created and managed with the Plugin "Slider Content Plugin". This is the Language Science Press Version whicht includes items and locales specific to Language Science Press. 
+This plugin replaces the template for the home page in OMP (frontend/pages/index.tpl). In index.tpl, it adds a slider that is populated with data from table 'langsci_slider_content'. The table can be created and managed with the Plugin "Slider Content Plugin".
  
 Implementation
 ================
