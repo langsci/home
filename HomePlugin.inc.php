@@ -43,13 +43,13 @@ class HomePlugin extends GenericPlugin {
 					$sliderContentDao = new SliderContentDao();
 					$contentArray = $sliderContentDao->getAllContent($request->getPress()->getId());
 
-					$content='';
+					$sliderContent='';
 					foreach ($contentArray as $value) {
-						$content.= "<div class='slider-container'>";
-						$content.= $value;
-						$content.= "</div>";
+						$sliderContent.= "<div class='slider-container'>";
+						$sliderContent.= $value;
+						$sliderContent.= "</div>";
 					}
-					$templateMgr->assign('content',$content);
+					$templateMgr->assign('sliderContent',$sliderContent);
 				}
 
 				$templateMgr->assign('title',__('plugins.generic.home.title'));
