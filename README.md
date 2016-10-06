@@ -4,7 +4,7 @@
 
 About
 -----
-This plugin replaces the template for the home page in OMP (frontend/pages/index.tpl). In index.tpl, it adds a slider that is populated with data from table 'langsci_slider_content'. The table can be created and managed with the Plugin "Slider Content Plugin". This is the Language Science Press Version whicht includes items and locales specific to Language Science Press.  
+This plugin replaces the template for the home page in OMP (frontend/pages/index.tpl). In index.tpl, it adds a slider that is populated with data from table 'langsci_slider_content'. The table can be created and managed with the Plugin "Slider Content Plugin".  
 
 License
 -------
