@@ -93,4 +93,22 @@
 	{/if}
 
 </div>
+
+
+<script src="{$baseUrl}/plugins/generic/home/owl-carousel/owl.carousel.js"></script>
+
+<script>
+	$(function() {ldelim}
+		$("#owl-slider").owlCarousel({ldelim}
+			navigation: true,
+			pagination: true,
+			navigationText: ['&#9664;','&#9654;'],
+			singleItem:true,
+			slideSpeed : 2000,
+			rewindSpeed : 4000,
+			autoHeight: true
+		{rdelim});
+	{rdelim});
+</script>
+
 {include file="common/frontend/footer.tpl"}
