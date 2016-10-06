@@ -21,7 +21,12 @@
  
 {include file="frontend/components/header.tpl"}
 
-<div class="page page_homepage">
+
+<link rel="stylesheet" href="{$baseUrl}/plugins/generic/home/owl-carousel/owl.carousel.css">  
+<link rel="stylesheet" href="{$baseUrl}/plugins/generic/home/owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="{$baseUrl}/plugins/generic/home/css/home.css">
+
+<div class="page page_homepage" id="langsciHome">
 
 	{* Homepage Image *}
 	{if $homepageImage}
